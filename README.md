@@ -17,14 +17,14 @@ Use it instantly by linking the script, or download it on GitHub.
 
 ### 1. Link to LiteBokz.js
 
-LiteBokz.js requires no download. Just insert the following code inside the <head> element.
+LiteBokz.js requires no download. Just insert the following code inside the `<head>` element.
 ```
 <script src="https://litebokz.github.io/litebokz/litebokz.js"></script>
 ```
 
 ### 2. Choose your images
 
-LiteBokz.js requires no download. Just insert the following code inside the <head> element.
+LiteBokz.js requires no download. Just insert the following code inside the `<head>` element.
 
 ### 3. Customize your LiteBokz
 
