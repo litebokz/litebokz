@@ -988,6 +988,7 @@ class LiteBokz {
             * {
                 box-sizing: border-box;
                 user-select: none;
+                touch-action: none;
             }
 
             .litebokz-hold {
