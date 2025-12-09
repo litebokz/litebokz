@@ -1,4 +1,4 @@
-# <p align="center">Litebokz.js</p>
+# <p align="center">LiteBokz.js</p>
 
 > <p align="center">Your Fast & Lightweight Image Viewer</p>
 
