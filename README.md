@@ -1,10 +1,6 @@
-<p align="center">
-  <img width="250" height="250" alt="logo" src="https://github.com/user-attachments/assets/802bc019-a05d-48f7-aeac-daa54fff25c2" />
-</p>
-
 # <p align="center">Litebokz.js</p>
 
-> <p align="center">A Lightbox That's Actually Light.</p>
+> <p align="center">Your Fast & Lightweight Image Viewer</p>
 
 Your modern, clean and minimal JavaScript lightbox library for viewing images. Embed it into any HTML website for instant image previewing.
 
@@ -24,7 +20,7 @@ LiteBokz.js requires no download. Just insert the following code inside the `<he
 
 ### 2. Choose your images
 
-LiteBokz.js requires no download. Just insert the following code inside the `<head>` element.
+Just add the `"litebokz"` class to any image for instant results. 
 
 ### 3. Customize your LiteBokz
 
