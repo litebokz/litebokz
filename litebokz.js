@@ -739,14 +739,16 @@ class LiteBokz {
                 main.tagName.toLowerCase() == 'img' ? main :
                 main.querySelector('img'))
 
-            if (main.dataset.lbName) {
-                img.dataset.lbName = main.dataset.lbName
+            if (img) {
+                if (main.dataset.lbName) {
+                    img.dataset.lbName = main.dataset.lbName
 
-                if (this.nameSections[main.dataset.lbName])
-                    this.nameSections[main.dataset.lbName].push(img)
-                else this.nameSections[main.dataset.lbName] = [img]
+                    if (this.nameSections[main.dataset.lbName])
+                        this.nameSections[main.dataset.lbName].push(img)
+                    else this.nameSections[main.dataset.lbName] = [img]
+                }
+                else this.nameDuds.push(img)
             }
-            else if (img) this.nameDuds.push(img)
 
             this.click(main, () => {
                 this.toggleOpen(true)
