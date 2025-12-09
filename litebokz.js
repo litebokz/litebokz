@@ -746,7 +746,7 @@ class LiteBokz {
                     this.nameSections[main.dataset.lbName].push(img)
                 else this.nameSections[main.dataset.lbName] = [img]
             }
-            else this.nameDuds.push(img)
+            else if (img) this.nameDuds.push(img)
 
             this.click(main, () => {
                 this.toggleOpen(true)
